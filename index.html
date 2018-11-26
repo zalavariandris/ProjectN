@@ -1,2 +1,37 @@
-<h1>ProjectN</h1>
-<p>Hungarian art network</p>
+<html>
+	<head>
+		<title>My Page</title>
+		<!--THREE JS -->
+        <script type="text/javascript" src="./js/lib/three.js"></script>
+        <script type="text/javascript" src="./js/lib/OrbitControls.js"></script>
+
+        <!--DATA -->
+        <script type="text/javascript" src="./js/exhibition_gallery_graph_filtered.js"></script>
+
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+        <style type="text/css">
+	        body{
+	        	font-family: monospace;
+	        }
+        	#graph {
+			    touch-action: none;
+			}
+			#info{
+				position: fixed;
+				background-color: white;
+				margin: 20px;
+				padding: 20px;
+			}
+        </style>
+	</head>
+	<body>
+		<div id="info">
+			<p> Hungarian art network based on IkOn archives</p>
+			<a href="http://ikon.hu/archiv">http://ikon.hu/archiv</a>
+		</div>
+		<div id="graph"></div>
+
+		<!--MAIN JS -->
+		<script type="text/javascript" src="./js/main.js"></script>
+	</body>
+</html>
