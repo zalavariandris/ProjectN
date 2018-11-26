@@ -3,7 +3,7 @@
  */
 var scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2("black", 0.75)
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+var camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.01, 10 );
 camera.position.z = 1;
 camera.near = 0.001;
 var controls = new THREE.OrbitControls( camera );
@@ -22,7 +22,7 @@ element.appendChild( renderer.domElement );
 
 //from exported data
 var nodes = data.nodes
-var edges = data.links
+var edges = data.edges
 
 /*
  * Create WEB Geometry
@@ -31,15 +31,13 @@ var edges = data.links
 // Geometry
 var geometry = new THREE.BufferGeometry();
 var vertices = new Float32Array( edges.length*(3+3) );
+
 for(var i=0; i<edges.length;i++){
 	var edge = edges[i];
 
-	var source = nodes.find(function(n) {
-	  return n.id==edge.source;
-	});
-	var target = nodes.find(function(n) {
-	  return n.id==edge.target;
-	});
+
+	var source = nodes[edge.source]
+	var target = nodes[edge.target]
 
 	for(var j=0; j<3; j++){
 		var idx = i*6+j;
@@ -75,6 +73,14 @@ var dots_material = new THREE.PointsMaterial( {
 } );
 var dots = new THREE.Points( geometry, dots_material );
 // scene.add(dots);
+
+window.addEventListener( 'resize', onWindowResize, false );
+
+function onWindowResize(){
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+}
 
 /* ======
  * RENDER
