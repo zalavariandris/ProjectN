@@ -6,7 +6,7 @@
         <script type="text/javascript" src="./js/lib/OrbitControls.js"></script>
 
         <!--DATA -->
-        <script type="text/javascript" src="./js/exhibition_gallery_graph_filtered.js"></script>
+        <script type="text/javascript" src="./js/exhibition_gallery_graph_filtered.js" charset="UTF-8"></script>
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
         <style type="text/css">
@@ -14,6 +14,9 @@
 	        	font-family: monospace;
 	        }
         	#graph {
+        		position: fixed;
+        		top: 0;
+        		left: 0;
 			    touch-action: none;
 			}
 			#info{
@@ -28,12 +31,21 @@
 			#info a{
 				color: white;
 			}
+
+			#world{
+				color: white;
+			}
         </style>
 	</head>
 	<body>
 		<div id="info">
 			<p> Hungarian art network based on IkOn archives</p>
 			<a href="http://ikon.hu/archiv">http://ikon.hu/archiv</a>
+		</div>
+		<div id="world">
+			<div id="camera">
+				
+			</div>
 		</div>
 		<div id="graph"></div>
 
