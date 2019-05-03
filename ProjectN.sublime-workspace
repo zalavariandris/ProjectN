@@ -1,0 +1,441 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addLevel"
+			],
+			[
+				"tube",
+				"tube_pivot"
+			],
+			[
+				"sphere",
+				"spheres_obj"
+			],
+			[
+				"graph",
+				"graph_obj"
+			],
+			[
+				"Object",
+				"Object3D"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"node",
+				"node_to_idx"
+			],
+			[
+				"Tran",
+				"Transparent"
+			],
+			[
+				"Exit",
+				"ExitApp"
+			],
+			[
+				"GuiC",
+				"GuiClose"
+			],
+			[
+				"Lo",
+				"Log()"
+			],
+			[
+				"timer",
+				"SetTimer"
+			],
+			[
+				"pen_",
+				"pen_state"
+			],
+			[
+				"PEN_STATE",
+				"PEN_STATE_2ND_BTN_TOUCHING"
+			],
+			[
+				"PEN_STATE_1ST",
+				"PEN_STATE_1ST_BTN_TOUCHING"
+			],
+			[
+				"PEN_STATE_2N",
+				"PEN_STATE_2ND_BTN_HOVERING"
+			],
+			[
+				"PEN_STA",
+				"PEN_STATE_1ST_BTN_HOVERING"
+			],
+			[
+				"PEN_HO",
+				"PEN_HOVERING"
+			],
+			[
+				"Gui",
+				"GuiControl"
+			],
+			[
+				"Single",
+				"SingleInstance\t#SingleInstance"
+			],
+			[
+				"lo",
+				"Log()"
+			],
+			[
+				"PEN_HOVERIN",
+				"PEN_NOT_HOVERING"
+			],
+			[
+				"grain",
+				"grain_clice"
+			],
+			[
+				"add_",
+				"add_grain"
+			],
+			[
+				"rgb",
+				"rgb_to_gray"
+			],
+			[
+				"V",
+				"Viewer"
+			],
+			[
+				"std",
+				"stderr"
+			],
+			[
+				"raw",
+				"raw_image"
+			],
+			[
+				"se",
+				"sequence"
+			],
+			[
+				"assert",
+				"assertIsInstance"
+			],
+			[
+				"Im",
+				"Image"
+			],
+			[
+				"Image",
+				"ImageSequence"
+			],
+			[
+				"ke",
+				"keys_pressed"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"win",
+				"windows"
+			],
+			[
+				"image",
+				"image_item"
+			],
+			[
+				"end",
+				"end-start"
+			],
+			[
+				"scan_",
+				"scan_00066"
+			],
+			[
+				"frame",
+				"frame_anchor"
+			],
+			[
+				"seque",
+				"sequence_name"
+			],
+			[
+				"slice",
+				"slice_width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/AutoHotkey/AutoHotkey.sublime-build",
+					""
+				],
+				[
+					"Packages/AutoHotkey/AutoHotkey.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/AutoHotkey/AutoHotkey.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"conda",
+				"Conda: List Environments"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/andris/ProjectN2",
+		"/C/Users/andris/ProjectN2/js",
+		"/C/Users/andris/ProjectN2/js/lib"
+	],
+	"file_history":
+	[
+		"/C/Users/andris/ProjectN/index.html",
+		"/C/Users/andris/ProjectN/js/common.js",
+		"/C/Users/andris/ProjectN2/js/common.js",
+		"/C/Users/andris/ProjectN2/js/main.js",
+		"/C/Users/andris/ProjectN2/index.html",
+		"/C/Users/andris/ProjectN/js/main.js",
+		"/C/Users/andris/ProjectN2/js/lib/three.js",
+		"/C/Users/andris/ProjectN/index2.html",
+		"/C/Users/andris/ProjectN/js/lib/stats.js",
+		"/C/Users/andris/Desktop/DLA 2018-19 Osz",
+		"/C/Users/andris/Desktop/ART/2018 19 ősz DLA/Labancz István DLA szigorlat második próba.md",
+		"/C/Users/andris/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/andris/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/andris/Desktop/DLA 2018-19 Osz.sublime-project",
+		"/C/Users/andris/Desktop/DLA 2018-19 Osz.md",
+		"/C/Users/andris/Downloads/RawInputControlTest_0.1f_en/RawInputControlTest.ahk",
+		"/C/Users/andris/.jupyter/jupyter_notebook_config.py",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/andris/AppData/Roaming/Sublime Text 3/Packages/User/Python3.sublime-build",
+		"/C/Users/andris/Desktop/MyPen_v2.ahk",
+		"/C/Users/andris/Desktop/Toolbar_Creator 2_2_Beta_5/Files/Includes/Class_ImageButton.ahk",
+		"/C/Users/andris/Desktop/MyTouch.ahk",
+		"/C/Users/andris/Desktop/moll/visualize_qt.py",
+		"/C/Users/andris/Desktop/moll/threed.py",
+		"/C/Users/andris/AppData/Roaming/Sublime Text 3/Packages/Python/Python.sublime-build",
+		"/C/Users/andris/Desktop/moll/panda_test.py",
+		"/C/Users/andris/AppData/Local/Temp/Rar$DRa15840.40696/rotating_cube.py",
+		"/C/Users/andris/Downloads/Microsoft.Office.2016.Professional.Plus.32bit.VL.Hun.2018.September-fatebringer/olvass.el.nfo",
+		"/C/Users/andris/Desktop/gui.ahk",
+		"/C/Users/andris/Desktop/2018 - LupArt/scripts/lupart.sublime-project",
+		"/C/Users/andris/Desktop/2018 - LupArt/scripts/imagesequence.py",
+		"/C/Users/andris/Desktop/2018 - LupArt/scripts/video.py",
+		"/C/Users/andris/Desktop/2018 - LupArt/MASTER_PIL2/thumbnail.py",
+		"/C/Users/andris/Desktop/2018 - LupArt/thumbnail.py",
+		"/C/Users/andris/Desktop/2018 - LupArt/MASTER_PIL/droppable.py",
+		"/C/Users/andris/Desktop/AnacondaPythonClasses.reg",
+		"/C/Users/andris/Desktop/2018 - LupArt/MASTER/droppable.py",
+		"/C/Users/andris/Desktop/droppable_py.reg",
+		"/C/Users/andris/Desktop/DROPPABLES/droppable.py",
+		"/C/Users/andris/Desktop/2018 - LupArt/scan_cv2.py",
+		"/C/Users/andris/Desktop/droppable.py",
+		"/C/Users/andris/Desktop/tmp.txt",
+		"/C/Users/andris/Desktop/2018 - LupArt/read.py",
+		"/C/Users/andris/Desktop/hosts",
+		"/C/Users/andris/Desktop/2018 - LupArt/perspective_scan.py",
+		"/C/Users/andris/Desktop/2018 - LupArt/InversePerspective.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"define",
+			"labels",
+			"web",
+			"data",
+			"graph"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 281.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/AutoHotkey/AutoHotkey.sublime-build",
+	"project": "ProjectN.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 136.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -4,6 +4,7 @@
 		<!--THREE JS -->
         <script type="text/javascript" src="./js/lib/three.js"></script>
         <script type="text/javascript" src="./js/lib/OrbitControls.js"></script>
+        <script type="text/javascript" src="./js/lib/stats.js"></script>
 
         <!--DATA -->
         <script type="text/javascript" src="./js/exhibition_gallery_graph_filtered.js" charset="UTF-8"></script>
@@ -21,6 +22,8 @@
 			}
 			#info{
 				color: white;
+				background-color: black;
+				z-index: 1;
 				position: fixed;
 				margin: 5px;
 				padding: 5px;
@@ -29,11 +32,7 @@
 				margin: 0;
 			}
 			#info a{
-				color: white;
-			}
-
-			#world{
-				color: white;
+				color: inherit;
 			}
         </style>
 	</head>
@@ -41,11 +40,6 @@
 		<div id="info">
 			<p> Hungarian art network based on IkOn archives</p>
 			<a href="http://ikon.hu/archiv">http://ikon.hu/archiv</a>
-		</div>
-		<div id="world">
-			<div id="camera">
-				
-			</div>
 		</div>
 		<div id="graph"></div>
 
